@@ -1,0 +1,115 @@
+*{
+        margin:0px;
+        padding:0px;
+        font-family: monospace;
+        box-sizing: border-box;
+    
+    }
+    body{
+          
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-blend-mode: overlay;
+      /* display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px; */
+      background-color: rgba(0, 68, 136, 0.7);
+}
+    
+header{
+   width: 100%;
+  min-height: 70px;
+  background-color: black;
+  color: #968700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  
+}
+header h1{
+    font-size: 20px;
+    color: #968700;
+    margin-left: 90px;
+    /* text-align: center;
+    display: flex;
+    align-items: center;
+justify-content: space-between; */
+}
+
+nav a{
+    text-decoration: none;
+    background: transparent;
+    color:#968700;
+    padding:  10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+  nav a:first-child {
+    background-color: #968700;
+    color: white;
+   border-radius: 10px;
+   height: 30px;
+   width: 60px;
+   /* text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center; */
+ 
+}
+nav a:first-child:hover{
+       background-color: #544c04;
+       transition: 0.3s;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+/* tr th{
+    padding: 20px;
+    font-size: 20px;
+    color: #968700;
+    background-color: black; */
+
+th tr{
+    padding: 12px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: black;
+    color: #968700;
+}
+tr:hover{
+    background-color: #f1f;
+}
+.btn{
+    text-decoration: none;
+        padding: 6px 12px;
+    font-size: 14px;
+
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.delete-btn{
+    background-color: red;
+}
+.update-btn{
+    background-color: blue;
+}
+.update-btn:hover{
+    background-color: darkblue;
+}
+.delete-btn:hover{
+      background-color: darkred;
+}
