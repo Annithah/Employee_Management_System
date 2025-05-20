@@ -1,0 +1,136 @@
+ *{
+        margin:0px;
+        padding:0px;
+        font-family: monospace;
+        box-sizing: border-box;
+    
+    }
+    body{
+          
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-blend-mode: overlay;
+      /* display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px; */
+      background-color: rgba(0, 68, 136, 0.7);
+}
+    
+header{
+   width: 100%;
+  min-height: 70px;
+  background-color: black;
+  color: #968700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  
+}
+header h1{
+    font-size: 20px;
+    color: #968700;
+    margin-left: 90px;
+    /* text-align: center;
+    display: flex;
+    align-items: center;
+justify-content: space-between; */
+}
+
+nav a{
+    text-decoration: none;
+    background: transparent;
+    color:#968700;
+    padding:  10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+  nav a:first-child {
+    background-color: #968700;
+    color: white;
+   border-radius: 10px;
+   height: 30px;
+   width: 60px;
+   /* text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center; */
+ 
+}
+nav a:first-child:hover{
+       background-color: #544c04;
+       transition: 0.3s;
+}
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        margin: 50px;
+        
+    }
+    .container{
+        width:400px;
+        height: 400px;
+        padding: 30px;
+         background-color:whitesmoke;
+       
+      font-size: 17px;
+       border: 10px;
+       border-radius: 10px;
+
+
+    }
+    .container h2{
+        font-size: 20px;
+        color: #3562ab;
+    }
+    .container input{
+        
+        width:320px;
+        height: 40px;
+        border-radius: 9px;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        background-color: WHITE;
+        outline: none;
+       
+    }
+    .container input::placeholder{
+         color:lightgray;
+         font-family:'poppins',sans-serif;
+    }
+    #submit{
+         width:320px;
+        height: 40px;
+        border-radius: 9px;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        background-color:#3562ab;
+        color: white;
+        font-size: 17px;
+
+
+    }
+    #submit:hover{
+      background: #003366;
+      transition: 0.3s;
+    }
+    .container a{
+        text-decoration: none;
+        color: #3562ab;
+        cursor: pointer;
+        
+    }
+    .container p{
+        color: #04070b;
+    }
