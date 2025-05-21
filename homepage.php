@@ -19,12 +19,12 @@
         <div class="container">
             <h2> Employee Registration Form</h2>
             <div class="all">
-                <input type="text" name="name" placeholder="Enter your names"required>
+                <input type="text" name="names" placeholder="Enter your names"required>
                 <input type="text" name="email" placeholder="Enter your Email" required>
                 <input type="password" name="password" placeholder="Enter your password"required>
-                <input type="text" name="Position" placeholder="Enter your Position" required>
+                <input type="text" name="position" placeholder="Enter your Position" required>
                 <input type="number" name="salary" placeholder="Enter your Salary" required>
-                <button id="submit">Register</button>
+                <button id="submit" >Register</button>
 
                 <p>Already Have Account? <a href="">Login</a></p>
             </div>

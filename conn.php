@@ -2,7 +2,7 @@
 $server="localhost";
 $username="root";
 $password="";
-$dbname="employe_management";
+$dbname="Employee_Management_System";
 
 $conn= new mysqli($server,$username,$password,$dbname);
 
